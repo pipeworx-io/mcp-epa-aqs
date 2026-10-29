@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/epa-aqs",
   "title": "Epa Aqs",
   "description": "EPA AQS MCP — the Air Quality System, EPA's regulatory-grade air monitoring archive",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/epa-aqs",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-epa-aqs",

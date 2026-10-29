@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-epa-aqs",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "EPA AQS MCP — the Air Quality System, EPA's regulatory-grade air monitoring archive",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-epa-aqs": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "epa-aqs"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-epa-aqs.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/epa-aqs",
   "pipeworx": {
-    "sourceHash": "v1-0190bc77c8a02cb55c5d2c403a1633bb8aeb4e4a431b8f9e39c20fa058ba69f5",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "epa-aqs",
+    "gatewaySlug": "epa-aqs",
+    "sourceHash": "v1-06c7eaba3b6b324a70b2635b9fefbc3f63f64b673a8da116a1167ac8b51bfa0e",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
