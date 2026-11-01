@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-epa-aqs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "EPA AQS MCP — the Air Quality System, EPA's regulatory-grade air monitoring archive",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "epa-aqs",
     "gatewaySlug": "epa-aqs",
-    "sourceHash": "v1-06c7eaba3b6b324a70b2635b9fefbc3f63f64b673a8da116a1167ac8b51bfa0e",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-06ab0767a45c1f08c90fef07601a25961730478c1d0fe924a0e86362a15d2df5",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
